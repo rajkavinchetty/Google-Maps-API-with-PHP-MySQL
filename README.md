@@ -109,7 +109,7 @@ In this part of code, We are creating an Javascript array with PHP Array's Data.
             //echo $locations[0]['name'].": In stock: ".$locations[0]['lat'].", sold: ".$locations[0]['lng'].".<br>";
             //echo $locations[1]['name'].": In stock: ".$locations[1]['lat'].", sold: ".$locations[1]['lng'].".<br>";
         ?>
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAfFN8NuvYyNkewBVMsk9ZNIcUWDEqHg2U"></script> 
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=Your-GoogleMap-API-Key"></script> 
         <script type="text/javascript">
         var map;
         var Markers = {};
