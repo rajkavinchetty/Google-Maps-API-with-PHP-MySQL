@@ -19,7 +19,7 @@ This Part of the Code Snippet creates an Array called $locations without giving 
         
         $db=new mysqli($servername,$uname,$pass,$dbname);
         
-        $query =  $db->query("SELECT * FROM location where work='$work'");
+        $query =  $db->query("SELECT * FROM location");
         
         //$number_of_rows = mysql_num_rows($db);  
         
@@ -89,13 +89,13 @@ In this part of code, We are creating an Javascript array with PHP Array's Data.
 
     <?php
             $locations=array();
-            $work=$_GET["service"];
+            //$work=$_GET["service"];
             $uname="root";
             $pass="";
             $servername="localhost";
             $dbname="bcremote";
             $db=new mysqli($servername,$uname,$pass,$dbname);
-            $query =  $db->query("SELECT * FROM location where work='$work'");
+            $query =  $db->query("SELECT * FROM location");
             //$number_of_rows = mysql_num_rows($db);  
             //echo $number_of_rows;
             while( $row = $query->fetch_assoc() ){
