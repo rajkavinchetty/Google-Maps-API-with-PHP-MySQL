@@ -1,12 +1,11 @@
 <?php
-        $locations=array();
-        $work=$_GET["service"];
+        $locations=array(); 
         $uname="root";
         $pass="";
         $servername="localhost";
         $dbname="bcremote";
         $db=new mysqli($servername,$uname,$pass,$dbname);
-        $query =  $db->query("SELECT * FROM location where work='$work'");
+        $query =  $db->query("SELECT * FROM location");
         //$number_of_rows = mysql_num_rows($db);  
         //echo $number_of_rows;
 
