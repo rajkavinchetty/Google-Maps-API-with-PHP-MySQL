@@ -1,6 +1,8 @@
 # Google-Maps-API-with-PHP-MySQL
 A Snippet of code to help you in Google Maps API. In this Script PHP Array and MySQL is used to store Latitude and Longitude. This script is made for those who needs a Map with Multiple Markers which changes it's Position Dynamically. In other words, This is made for people who need t a Map solution for Uber Like Application
 
+What's the purpose of this snippet? Why did I create it? The reason is simply I just wanted to eliminate the complexity and keep it as simple as possible. This is a hybrid-script for developers looking forward to add maps on their site purely with PHP, MySQL and a bit of JS. No XML and No JQuery used. 
+
 
 <h2>Array Creation</h2>
 <code>$locations=array();</code>
